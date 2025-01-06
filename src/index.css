@@ -45,3 +45,23 @@ body {
   outline: none;
   border: none;
 }
+.container button:hover{
+  background-color: #567d3f;
+}
+@media (max-width: 600px){
+  .container{
+    gap: 4rem;
+  }
+  .display {
+    width: 290px;
+    height: 300px;
+    font-size: 1.2em;
+    padding: 0.5rem;
+  }
+  .container button {
+    font-size: 0.9em;
+    padding: 8px 15px;
+    width:290px;
+    height: 40px;
+  }
+}
