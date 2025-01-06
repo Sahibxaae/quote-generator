@@ -37,3 +37,11 @@ body {
   background-color: #BDEBA1;
   border-radius: 20px;
 }
+.container button{
+  width:100px;
+  height: 35px;
+  background-color: #BDEBA1;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+}
