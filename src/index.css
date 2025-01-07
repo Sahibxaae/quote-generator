@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 *{
   margin:0;
   padding:0;
+  box-sizing: border-box;
 }
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: "Roboto Mono", serif;
   height: 100vh;
   overflow: hidden;
 }
@@ -13,6 +15,7 @@ body {
   padding: 0.5rem;
   background-color:#ACC8E5;
   color: #112A46;
+  font-family: sans-serif;
 }
 .container{
   display: flex;
@@ -23,22 +26,23 @@ body {
   font-weight: 600;
 }
 .display{
-  width: 450px;
+  width: 600px;
   height: 350px;
-  border: #083307 5px solid;
   padding: 1rem;
   margin-top: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2rem;
+  flex-direction: column;
+  gap: 1.5rem;
+  font-size: 1.5rem;
   text-align: center;
-  color: #083307;
+  color:#2E2423;
   font-weight: 700;
-  background-color: #BDEBA1;
+  background-color: #FF9A8B;
   border-radius: 20px;
 }
-.container button{
+.next-btn{
   width:100px;
   height: 35px;
   background-color: #BDEBA1;
@@ -46,7 +50,7 @@ body {
   outline: none;
   border: none;
 }
-.container button:hover{
+.next-btn:hover{
   background-color: #567d3f;
 }
 @media (max-width: 600px){
@@ -58,12 +62,5 @@ body {
     height: 350px;
     font-size: 1.5em;
     padding: 0.5rem;
-  }
-  .container button {
-    font-size: 1.4rem;
-    font-weight: 600;
-    padding: 8px 15px;
-    width:310px;
-    height: 50px;
   }
 }

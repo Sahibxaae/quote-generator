@@ -18,9 +18,9 @@ function Main (){
   return (
     <div className='container'>
         <div className="display">
-            {currentQuote}
+            "{currentQuote}"
+            <button className='next-btn' onClick={genarateQuote}>Generate</button>
         </div>
-        <button onClick={genarateQuote}>Generate</button>
     </div>
   )
 }
