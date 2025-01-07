@@ -45,22 +45,23 @@ body {
 .next-btn{
   width:100px;
   height: 35px;
-  background-color: #BDEBA1;
+  background-color:#ACC8E5;
+  font-size: 1rem;
+  font-weight: 600;
   border-radius: 20px;
   outline: none;
   border: none;
 }
-.next-btn:hover{
-  background-color: #567d3f;
-}
 @media (max-width: 600px){
-  .container{
-    gap: 4rem;
-  }
   .display {
-    width: 320px;
-    height: 350px;
+    width: 360px;
+    height: 300px;
     font-size: 1.5em;
-    padding: 0.5rem;
+    padding: 0 1.2rem;
+    margin-top: 12rem;
+  }
+  .next-btn{
+    width: 200px;
+    height: 40px;
   }
 }
